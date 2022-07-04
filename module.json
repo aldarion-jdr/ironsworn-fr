@@ -1,0 +1,38 @@
+{
+  "name": "ironsworn-fr",
+  "title": "Ironsworn - Traduction en Français",
+  "description": "Module de traduction du système Ironsworn en Français, basé sur Babele.",
+  "version": "1.0.0",
+  "minimumCoreVersion" : "0.9.1",
+  "compatibleCoreVersion": "9",
+  "author": "Aldarion",
+  "dependencies": [
+	{
+      "name": "foundry-ironsworn",
+	  "type": "system",
+	  "version": "1.0.1"
+    },
+    {
+      "name": "babele",
+	  "type": "module",
+	  "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
+      "version": "2.2.3"
+    }
+  ],
+  "esmodules": [
+      "babele-register.js"
+    ],
+  "scripts": [ ],
+  "styles": [],
+  "packs": [],
+  "languages": [{
+  	"lang": "fr",
+  	"name": "Français",
+  	"path": "lang/fr.json"  	
+  }],
+  "system": "foundry-ironsworn",
+  "systemVersion": "1.0.1",
+  "url": "https://github.com/aldarion-jdr/ironsworn-fr",
+  "manifest": "https://github.com/aldarion-jdr/ironsworn-fr/raw/main/module.json",
+  "download": "https://github.com/aldarion-jdr/ironsworn-fr/archive/refs/heads/main.zip"
+}

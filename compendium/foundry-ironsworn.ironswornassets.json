@@ -1,0 +1,640 @@
+{
+	"label": "Atouts",
+	"mapping": {
+		"frName": "name",
+		"frDescription": "data.description",
+		"frAbilities": "data.abilities"
+	},
+	"entries": {
+		"Combat Talent / Archer": {
+			"frName": "Talent de Combat / Archer",
+			"frDescription": "Lorsque vous maniez un arc…",
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous vous <em>Emparez d&rsquo;un Avantage</em> en prenant le temps de viser, ajoutez +1 et retenez l&rsquo;une de ces approches :</p> <ul> <li>Faire confiance &agrave; votre instinct : ((rollplus wits)), et gagnez +2 &eacute;lan sur un coup fort.</li> <li>Pr&eacute;parer votre tir : ((rollplus edge)), et gagnez +1 &eacute;lan sur un succ&egrave;s.</li> </ul>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Une fois par combat, lorsque vous <em>Frappez</em> ou <em>Ripostez</em>, vous pouvez d&eacute;cocher des fl&egrave;ches suppl&eacute;mentaires en subissant une p&eacute;nalit&eacute; de -1 provisions (choisissez avant de jeter les d&eacute;s). Si vous le faites, relancez n&rsquo;importe quel d&eacute;. Sur un succ&egrave;s, vous infligez +2 d&eacute;g&acirc;ts et gagnez +1 &eacute;lan.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous vous <em>Ravitaillez</em> en chassant, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				}
+			]
+		},
+		"Combat Talent / Berserker": {
+			"frName": "Talent de Combat / Berserk",
+			"frDescription": "Si vous n’êtes couvert que de peaux de bête…",
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous vous <em>Emparez d&rsquo;un Avantage</em> ou que vous <em>Contraignez</em> en incarnant votre nature sauvage, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous <em>Frappez</em> ou <em>Ripostez</em> en laissant libre court &agrave; votre rage (d&eacute;cidez-en avant votre jet), infligez +1 d&eacute;g&acirc;t sur un succ&egrave;s. Puis, retenez l&rsquo;une des options suivantes :</p> <ul> <li>D&eacute;passez-vous : <em>Subissez des D&eacute;g&acirc;ts</em> (1 d&eacute;g&acirc;t)</li> <li>Abandonnez-vous : <em>Subissez un Stress</em> (1 stress).</li> </ul>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous <em>Subissez des D&eacute;g&acirc;ts</em> lors d&rsquo;un combat, et que votre sant&eacute; est sup&eacute;rieure &agrave; z&eacute;ro, vous pouvez laisser la douleur attiser votre sauvagerie (d&eacute;cidez-en avant votre jet). Sur un coup fort, si vous choisissez d&rsquo;&eacute;pouser la douleur, vous gagnez +&eacute;lan &eacute;quivalent &agrave; votre score de sant&eacute; restant. Consid&eacute;rez un coup faible comme un &eacute;chec.</p>"
+				}
+			]
+		},
+		"Combat Talent / Brawler": {
+			"frName": "Talent de Combat / Bagarreur",
+			"frDescription": "Lorsque vous êtes désarmé ou que vous combattez avec une arme non létale…",
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous vous <em>Emparez d&rsquo;un Avantage</em> ((rollplus iron)) en vous bagarrant au corps &agrave; corps (en frappant, renversant ou agrippant) ajoutez +1. Sur un succ&egrave;s, vous pouvez &eacute;galement infliger 1 d&eacute;g&acirc;t.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous <em>Frappez</em> &agrave; mains nues ou &agrave; l&rsquo;aide d&rsquo;une arme simple avec l&rsquo;intention de donner la mort, ajoutez +2 et infligez 2 d&eacute;g&acirc;ts sur un succ&egrave;s (au lieu de 1). Sur un coup faible ou un &eacute;chec, subissez une p&eacute;nalit&eacute; de -1 &eacute;lan (en plus de toutes autres cons&eacute;quences de l&rsquo;action).</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous Faites <em>Face au Danger</em> ou que vous Ripostez contre une attaque sans arme au corps &agrave; corps, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				}
+			]
+		},
+		"Combat Talent / Cutthroat": {
+			"frName": "Talent de Combat / Égorgeur",
+			"frDescription": "Lorsque vous maniez une dague ou un couteau…",
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Quand vous &ecirc;tes en position de <em>Frapper</em> un ennemi qui ne se doute de rien, retenez l&rsquo;une de ces deux options (avant de faire votre jet) :</p> <ul> <li>Ajouter +2 et gagner +1 &eacute;lan sur un succ&egrave;s.</li> <li>Infliger +2 d&eacute;g&acirc;ts sur un succ&egrave;s.</li> </ul>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous <em>Contraignez</em> quelqu&rsquo;un &agrave; la pointe de votre lame, ou lorsque vous comptez sur votre lame pour <em>Faire Face au Danger</em>, ajoutez +1.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Une fois par combat, lorsque vous vous <em>Emparez d&rsquo;un Avantage</em> ((rollplus shadow)) gr&acirc;ce &agrave; une feinte ou une diversion, relancez n&rsquo;importe quel d&eacute; et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				}
+			]
+		},
+		"Combat Talent / Duelist": {
+			"frName": "Talent de Combat / Duelliste",
+			"frDescription": "Lorsque vous maniez une arme blanche dans chaque main…",
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Quand vous <em>Frappez</em> ou <em>Ripostez</em>, vous pouvez ajouter +2 (d&eacute;cidez-en avant de faire votre jet). Si vous le faites, infligez +1 d&eacute;g&acirc;t sur un coup fort, mais consid&eacute;rez un coup faible comme un &eacute;chec.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Une fois par combat, lorsque vous vous <em>Emparez d&rsquo;un Avantage</em> avec ((rollplus edge)) en faisant une &eacute;clatante d&eacute;monstration de vos talents de combattant, vous pouvez relancer n&rsquo;importe quel d&eacute;.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous <em>Tracez le Cercle</em>, retenez l&rsquo;une des options suivantes (avant de faire votre jet).</p> <ul> <li>Ajoutez +2.</li> <li>Gagnez +2 &eacute;lan sur un succ&egrave;s.</li> </ul>"
+				}
+			]
+		},
+		"Combat Talent / Fletcher": {
+			"frName": "Talent de Combat / Fléchier",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous vous <em>Emparez d&rsquo;un Avantage</em> en fabriquant des fl&egrave;ches de bonne qualit&eacute;, ajoutez +1. Sur un succ&egrave;s, vous gagnez +1 provisions ou +1 &eacute;lan.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous vous <em>Ravitaillez</em> en r&eacute;cup&eacute;rant ou en ramassant des fl&egrave;ches apr&egrave;s une bataille, ajoutez +2.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous fabriquez un fl&egrave;che unique con&ccedil;ue contre un adversaire sp&eacute;cifique, visualisez le processus de fabrication et les mat&eacute;riaux utilis&eacute;s, puis ((rollplus wits)). Sur un coup fort, retenez les deux options suivantes. Sur un coup faible, retenez-en une :</p> <ul> <li>T&ecirc;te chercheuse : Lorsque le tireur <em>Frappe</em> ou <em>Riposte</em> contre cet adversaire en utilisant cette fl&egrave;che, il peut rejeter n&rsquo;importe quel d&eacute; (une seule fois seulement).</li> <li>T&ecirc;te barbel&eacute;e : Lorsque le tireur inflige des d&eacute;s contre cet adversaire en utilisant cette fl&egrave;che, il inflige +1d6 d&eacute;g&acirc;ts (une seule fois seulement).</li> </ul>"
+				}
+			]
+		},
+		"Combat Talent / Ironclad": {
+			"frName": "Talent de Combat / Fer-vêtu",
+			"frDescription": "Si vous portez une armure…",
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous rev&ecirc;tissez ou ajustez votre armure, retenez l&rsquo;une des options suivantes :</p> <ul> <li><strong>Armure l&eacute;g&egrave;re</strong> : Lorsque vous <em>Subissez des D&eacute;g&acirc;ts</em> au cours d&rsquo;un combat, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</li> <li><strong>Armure de guerre</strong> : Notez le handicap encombr&eacute;. Lorsque vous <em>Subissez des D&eacute;g&acirc;ts</em> au cours d&rsquo;un combat, ajoutez +2 et gagnez +1 &eacute;lan sur un succ&egrave;s.</li> </ul>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous <em>Ripostez</em> en portant votre armure de guerre, ajoutez +1.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous <em>Contraignez</em> dans une&nbsp;situation o&ugrave; la force physique est un facteur, ajoutez +2.</p>"
+				}
+			]
+		},
+		"Combat Talent / Long-Arm": {
+			"frName": "Talent de Combat / Bras long",
+			"frDescription": "Lorsque vous maniez un bâton…",
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Dans vos mains, un simple b&acirc;ton devient une arme mortelle (2 d&eacute;g&acirc;ts). Si vous d&eacute;cidez au contraire de l&rsquo;utiliser comme une arme simple (1 d&eacute;g&acirc;t), vous pouvez <em>Frapper</em> ou <em>Riposter </em>((rollplus edge)) (au lieu de +fer). Si vous le faites, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Quand vous vous <em>Emparez d&rsquo;un Avantage</em> ((rollplus edge)) en utilisant votre b&acirc;ton pour d&eacute;sarmer, renverser, pousser ou &eacute;tourdir votre ennemi, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous <em>Entreprenez un Voyage</em> et obtenez un succ&egrave;s fort, ou lorsque vous accompagnez un alli&eacute; qui obtient un coup fort en d&eacute;clenchant cette action, vous gagnez +1 &eacute;lan tandis que votre b&acirc;ton vous apporte soutien et r&eacute;confort lors de vos d&eacute;placements.</p>"
+				}
+			]
+		},
+		"Combat Talent / Shield-Bearer": {
+			"frName": "Talent de Combat / Porte-Bouclier",
+			"frDescription": "Lorsque vous maniez un bouclier…",
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Quand vous <em>Faites Face au Danger</em> en utilisant votre bouclier pour vous mettre &agrave; couvert, ajoutez +1. Quand vous <em>Ripostez</em> au corps &agrave; corps, vous gagnez +1 &eacute;lan sur un coup fort.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Quand vous peignez sur votre bouclier un symbole significatif, visualisez votre peinture. Par la suite, lorsque vous <em>Subissez un Stress</em> en affrontant un ennemi terrifiant, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous &ecirc;tes contraint de <em>Subir des D&eacute;g&acirc;ts</em> lors d&rsquo;un combat, vous pouvez &agrave; la place sacrifier votre bouclier et ignorer tous les d&eacute;g&acirc;ts. Si vous le faites, votre bouclier est d&eacute;truit. Une fois par combat, vous pouvez &eacute;galement gagner l&rsquo;initiative lorsque vous sacrifiez votre bouclier pour ignorer des d&eacute;g&acirc;ts.</p>"
+				}
+			]
+		},
+		"Combat Talent / Skirmisher": {
+			"frName": "Talent de Combat / Escarmoucheur",
+			"frDescription": "Lorsque vous maniez une lance…",
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Quand vous <em>Faites Face au Danger</em> en tenant un ennemi en respect gr&acirc;ce &agrave; l&rsquo;allonge de votre lance, ((rollplus iron)) ou ((rollplus edge)). Si vous obtenez un coup fort, retenez l&rsquo;option ad&eacute;quate :</p> <ul> <li>Avec Fer : <em>Frappez</em> (si vous avez l&rsquo;initiative) ou <em>Ripostez</em> imm&eacute;diatement, et ajoutez +1.</li> <li>Avec Vivacit&eacute; : Gagnez +1 &eacute;lan.</li> </ul>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Quand vous <em>Frappez</em> au corps &agrave; corps, vous pouvez tenter d&rsquo;embrocher votre adversaire (d&eacute;cidez-en avant de faire votre jet). Si vous le faites, ajoutez +1 et infligez +2 d&eacute;g&acirc;ts sur un succ&egrave;s. Si le combat continue et que vous avez obtenu un succ&egrave;s, vous devrez Faire <em>Face au Danger</em> avec ((rollplus iron)) pour retirer votre lance avant de pouvoir la r&eacute;utiliser.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Quand vous vous <em>Emparez d&rsquo;un Avantage</em> en braquant votre lance sur un ennemi qui vous charge, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				}
+			]
+		},
+		"Combat Talent / Slinger": {
+			"frName": "Talent de Combat / Frondeur",
+			"frDescription": "Lorsque vous maniez une fronde…",
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous projetez une simple pierre avec une fronde, celle-ci devient une arme mortelle (infligeant 2 d&eacute;g&acirc;ts). Lorsque vous <em>Plongez dans la M&ecirc;l&eacute;e</em> en mitraillant votre adversaire de balles de fronde, vous infligez des d&eacute;g&acirc;ts sur un coup fort.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous <em>Frappez</em> en lan&ccedil;ant des pierres sur un adversaire qui avance vers vous, retenez l&rsquo;une des options suivantes (d&eacute;cidez-en avant votre jet) :</p> <ul> <li>Tenir &agrave; distance : Vous gardez l&rsquo;initiative sur un coup faible, mais n&rsquo;infligez que 1 d&eacute;g&acirc;t.</li> <li>Frapper fort : Vous infligez +1 d&eacute;g&acirc;t sur un succ&egrave;s, mais subissez une p&eacute;nalit&eacute; de -1 &eacute;lan.</li> </ul>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous vous <em>Emparez d&rsquo;un Avantage</em> en pr&eacute;parant de pierres d&rsquo;une qualit&eacute; ou d&rsquo;un mat&eacute;riau particulier, ajoutez +1. Vous gagnez +1 &eacute;lan ou +1 provisions sur un succ&egrave;s.</p>"
+				}
+			]
+		},
+		"Combat Talent / Sunderer": {
+			"frName": "Talent de Combat / Fendeur",
+			"frDescription": "Lorsque vous maniez une hache…",
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Quand vous <em>Frappez ou Ripostez</em> au corps &agrave; corps, vous pouvez choisir de subir -1 &eacute;lan pour infliger +1 d&eacute;g&acirc;t sur un succ&egrave;s (d&eacute;cidez-en avant de faire votre jet).</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous tenez votre hache en main et que vous menacez d&rsquo;&ecirc;tre violent pour <em>Contraindre</em> ou vous <em>Emparer d&rsquo;un Avantage</em>, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Quand vous rendez hommage &agrave; un ennemi vaincu (de rang redoutable ou plus) en gravant une rune sur le manche de votre hache, ((rollplus heart)). Sur un coup fort, vous pouvez infliger +1d6 d&eacute;g&acirc;ts (une seule fois) lorsque vous <em>Frappez ou Ripostez</em>. Sur un coup faible, comme pr&eacute;c&eacute;demment, mais cette mort vous p&egrave;se ; vous <em>Subissez un Stress</em> (2 stress).</p>"
+				}
+			]
+		},
+		"Combat Talent / Swordmaster": {
+			"frName": "Talent de Combat / Maître-Épéiste",
+			"frDescription": "Lorsque vous maniez une épée…",
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Quand vous <em>Frappez ou Ripostez</em> et br&ucirc;lez de l&rsquo;&eacute;lan pour am&eacute;liorer votre r&eacute;sultat, vous infligez +2 d&eacute;g&acirc;ts. Si le combat continue, ajoutez +1 &agrave; votre prochaine action.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Quand vous <em>Ripostez</em> et obtenez un coup fort, vous pouvez ajouter +1 si vous encha&icirc;nez imm&eacute;diatement en d&eacute;clenchant l&rsquo;action <em>Frapper</em>.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Quand vous <em>Jurez un V&oelig;u de Fer</em> en vous agenouillant et en saisissant la lame de votre &eacute;p&eacute;e, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s. Si vous serrez votre lame pour entailler vos paumes jusqu&rsquo;au sang, vous <em>Subissez des D&eacute;g&acirc;ts</em> (1 d&eacute;g&acirc;t) en &eacute;change de +1 &eacute;lan suppl&eacute;mentaire sur un succ&egrave;s.</p>"
+				}
+			]
+		},
+		"Combat Talent / Thunder-Bringer": {
+			"frName": "Talent de Combat / Frappe-Tonnerre",
+			"frDescription": "Si vous maniez un puissant marteau…",
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous <em>Faites Face au Danger</em>, que vous vous<em> Emparez d&rsquo;un Avantage</em> ou que vous <em>Contraignez</em> en tapant ou en brisant un objet inanim&eacute;, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous <em>Frappez</em> un ennemi afin de le repousser, l&rsquo;assommer ou le d&eacute;s&eacute;quilibrer, vous infligez 1 d&eacute;g&acirc;t (au lieu de 2) et vous gagnez +2 &eacute;lan sur un succ&egrave;s. Sur un coup fort, vous cr&eacute;ez &eacute;galement une ouverture et ajoutez +1 &agrave; votre prochaine action.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous <em>Renversez la Situation</em>, vous pouvez <em>Frapper</em> avec toute la rage et la puissance qu&rsquo;il vous reste. Si vous le faites (d&eacute;cidez-en avant votre jet), vous pouvez relancer n&rsquo;importe quel d&eacute; et infliger +2 d&eacute;g&acirc;ts sur un coup fort, mais un coup faible sera consid&eacute;r&eacute; comme un &eacute;chec.</p>"
+				}
+			]
+		},
+		"Companion / Cave Lion": {
+			"frName": "Compagnon / Lion des Cavernes",
+			"frDescription": "Votre chat abat sa proie.",
+			"frAbilities": [
+				{
+					"enabled": "False",
+					"description": "<p><strong>Avide :</strong> Lorsque votre chat pourchasse du gros gibier, vous pouvez vous <em>R&eacute;approvisionner</em> avec ((rollplus edge)) (au lieu ((rollplus wits))). Si vous le faites, vous gagnez +1 provisions ou +1 &eacute;lan sur un coup fort.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p><strong>In&eacute;vitable :</strong> Lorsque vous <em>Plongez dans la M&ecirc;l&eacute;e</em> ou <em>Frappez</em> en envoyant votre chat &agrave; l&rsquo;attaque, ((rollplus edge)). Sur un succ&egrave;s, vous gagnez +2 &eacute;lan.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p><strong>Protecteur :</strong> Lorsque vous <em>Montez le Camp</em>, votre chat reste attentif au danger. Si vous ou l&rsquo;un de vos alli&eacute; choisissez de vous relaxer, vous gagnez +1 esprit. Si vous vous concentrez, vous gagnez +1 &eacute;lan.</p>"
+				}
+			]
+		},
+		"Companion / Giant Spider": {
+			"frName": "Compagnon / Araignée Géante",
+			"frDescription": "Votre araignée découvre des secrets.",
+			"frAbilities": [
+				{
+					"enabled": "False",
+					"description": "<p><strong>Discr&egrave;te :</strong> Lorsque vous vous <em>Emparez d&rsquo;un Avantage</em> en envoyant votre araign&eacute;e en &eacute;claireur &agrave; votre place, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p><strong>Perceuse d&rsquo;&acirc;me :</strong> Lorsque vous envoyez votre araign&eacute;e &eacute;tudier secr&egrave;tement quelqu&rsquo;un, vous pouvez <em>Faire Face au Danger</em> avec ((rollplus shadow)). Sur un succ&egrave;s, l&rsquo;araign&eacute;e revient en vous r&eacute;v&eacute;lant les peurs les plus profondes de la cible &agrave; travers le reflet de ses yeux vitreux. Vous pouvez utiliser ce savoir pour <em>R&eacute;colter des Informations</em> et relancer n&rsquo;importe quel d&eacute;.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p><strong>Tisseuse :</strong> Lorsque votre araign&eacute;e tend un pi&egrave;ge, ajoutez +1 si vous <em>Plongez dans la M&ecirc;l&eacute;e</em> avec ((rollplus shadow)). Sur un coup fort, vous infligez &eacute;galement 2 d&eacute;g&acirc;ts.</p>"
+				}
+			]
+		},
+		"Companion / Hawk": {
+			"frName": "Compagnon / Faucon",
+			"frDescription": "Votre faucon peut vous aider lorsqu’il est en vol.",
+			"frAbilities": [
+				{
+					"enabled": "False",
+					"description": "<p><strong>Vision lointaine :</strong> Lorsque vous <em>Entreprenez un Voyage</em> ou lorsque vous vous <em>Ravitaillez</em> en chassant du petite gibier, ajoutez +1.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p><strong>F&eacute;roce :</strong> Lorsque vous vous <em>Emparez d&rsquo;un Avantage</em> sur ((rollplus edge)) en utilisant votre faucon pour harceler et d&eacute;tourner l&rsquo;attention de vos ennemis, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p><strong>Vigilant :</strong> Lorsque vous <em>Faites Face au Danger</em> avec ((rollplus wits)) pour d&eacute;tecter l&rsquo;approche d&rsquo;une menace, ou lorsque vous <em>Plongez dans la M&ecirc;l&eacute;e</em> avec ((rollplus wits)) contre une embuscade, ajoutez +2.</p>"
+				}
+			]
+		},
+		"Companion / Horse": {
+			"frName": "Compagnon / Cheval",
+			"frDescription": "Votre cheval et vous ne faites plus qu’un lorsque vous êtes sur son dos.",
+			"frAbilities": [
+				{
+					"enabled": "False",
+					"description": "<p><strong>V&eacute;loce :</strong> Lorsque vous <em>Faites Face au Danger</em> avec ((rollplus edge)) en utilisant la rapidit&eacute; et la gr&acirc;ce de votre cheval ou lorsque vous <em>Entreprenez un Voyage</em>, ajoutez +1.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p><strong>Imperturbable :</strong> Lorsque vous <em>Plongez dans la M&ecirc;l&eacute;e</em> ou que vous vous <em>Emparez d&rsquo;un Avantage</em> avec ((rollplus heart)) en chargeant au combat, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p><strong>Puissant :</strong> Lorsque vous <em>Frappez</em> ou que vous <em>Ripostez</em> &agrave; courte port&eacute;e en chevauchant, ajoutez +1 et infligez +1 d&eacute;g&acirc;t sur un succ&egrave;s.</p>"
+				}
+			]
+		},
+		"Companion / Hound": {
+			"frName": "Compagnon / Chien",
+			"frDescription": "Votre chien est votre fidèle compagnon.",
+			"frAbilities": [
+				{
+					"enabled": "False",
+					"description": "<p><strong>Limier :</strong> Lorsque vous <em>R&eacute;coltez des Informations</em> en tirant parti des sens aff&ucirc;t&eacute;s de votre chien pour pister votre proie ou pour fouiller un lieu, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p><strong>F&eacute;roce :</strong> Lorsque vous <em>Frappez</em> ou <em>Fracassez</em> aux c&ocirc;t&eacute;s de votre chien et obtenez un succ&egrave;s, vous infligez +1 d&eacute;g&acirc;t ou gagnez +1 &eacute;lan.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p><strong>Loyal :</strong> Lorsque vous <em>Subissez un Stress</em> en compagnie de votre chien, ajoutez +1.</p>"
+				}
+			]
+		},
+		"Companion / Kindred": {
+			"frName": "Compagnon / Sang-Lié",
+			"frDescription": "Votre ami indéfectible.",
+			"frAbilities": [
+				{
+					"enabled": "False",
+					"description": "<p><strong>Expertise :</strong> Lorsque vous d&eacute;clenchez une action en dehors du combat en vous aidant de l&rsquo;expertise de votre compagnon, ajoutez +1. Expertise:</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p><strong>Compagnon d&rsquo;armes :</strong> Lorsque vous <em>Ripostez</em> ou <em>Bataillez</em> aux c&ocirc;t&eacute;s de votre compagnon, ou lorsque vous <em>Faites Face au Danger</em> contre une attaque en faisant front ensemble, ajoutez +1.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p><strong>Li&eacute;s :</strong> Une fois que vous aurez not&eacute; un lien avec votre compagnon, ajoutez +1 lorsque vous Faites <em>Face &agrave; la D&eacute;solation</em> en sa pr&eacute;sence.</p>"
+				}
+			]
+		},
+		"Companion / Mammoth": {
+			"frName": "Compagnon / Mammouth",
+			"frDescription": "Votre mammouth marche d’un pas résolu.",
+			"frAbilities": [
+				{
+					"enabled": "False",
+					"description": "<p><strong>Massif :</strong> Lorsque vous <em>Entreprenez un Voyage</em> en compagnie de votre mammouth, vous pouvez ajouter +2 (d&eacute;cidez-en avant votre jet). Si vous le faites, vous subissez une p&eacute;nalit&eacute; de -1 &eacute;lan.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p><strong>B&ecirc;te de somme :</strong> Lorsque vous d&eacute;clenchez une action avec ((rollplus supply)), vous pouvez faire votre jet avec +la sant&eacute; de votre mammouth &agrave; la place.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p><strong>&Eacute;crasant :</strong> Lorsque vous <em>Frappez</em> ou <em>Ripostez</em> sur le dos de votre mammouth contre une meute d&rsquo;adversaires, ajoutez +1 et infligez +1 d&eacute;g&acirc;t sur un succ&egrave;s.</p>"
+				}
+			]
+		},
+		"Companion / Owl": {
+			"frName": "Compagnon / Chouette",
+			"frDescription": "Votre chouette s’élève à travers les ténébres.",
+			"frAbilities": [
+				{
+					"enabled": "False",
+					"description": "<p><strong>Nocturne :</strong> Si vous vous <em>Ravitaillez</em> de nuit en envoyant votre chouette chasser, vous gagnez +2 &eacute;lan sur un succ&egrave;s. Lorsque vous <em>Plongez dans la M&ecirc;l&eacute;e</em> avec ((rollplus wits)) face &agrave; une ambuscade tendue de nuit, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p><strong>Sage :</strong> Lorsque vous mettez &agrave; profit le savoir secret de votre chouette pour accomplir un rituel, ajoutez +1 ou gagnez +1 &eacute;lan sur un succ&egrave;s (d&eacute;cidez-en avant de faire votre jet).</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p><strong>Incarnation :</strong> Lorsque vous <em>Faites Face &agrave; la Mort</em>, vous gagnez autant d&rsquo;&eacute;lan que le score de sant&eacute; de votre chouette avant de faire votre jet.</p>"
+				}
+			]
+		},
+		"Companion / Raven": {
+			"frName": "Compagnon / Corbeau",
+			"frDescription": "Votre corbeau répond à votre appel.",
+			"frAbilities": [
+				{
+					"enabled": "False",
+					"description": "<p><strong>Rus&eacute; :</strong> Lorsque vous <em>Faites Face au Danger</em> ou que vous vous <em>Emparez d&rsquo;un Avantage</em> avec ((rollplus shadow)) en utilisant votre corbeau pour jouer un tour (tel que cr&eacute;er une distraction ou voler un petit objet), ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p><strong>Savant :</strong> Lorsque vous <em>Faites Face &agrave; la Mort</em>, ajoutez +2 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p><strong>Diligent :</strong> Lorsque votre corbeau livre des messages pour vous, vous pouvez vous <em>Emparer d&rsquo;un Avantage</em>, <em>R&eacute;colter des Informations</em> ou <em>Contraindre</em> &agrave; distance.</p>"
+				}
+			]
+		},
+		"Companion / Young Wyvern": {
+			"frName": "Compagnon / Jeune Wyverne",
+			"frDescription": "Votre wyverne ne vous dévorera pas. Pour l’instant…",
+			"frAbilities": [
+				{
+					"enabled": "False",
+					"description": "<p><strong>Insatiable :</strong> Lorsque vous <em>Entreprenez un Voyage</em> et obtenez un succ&egrave;s, vous pouvez accepter de subir -1 provisions en &eacute;change de +1 &eacute;lan.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p><strong>Indomptable :</strong> Lorsque vous d&eacute;clenchez l&rsquo;action<em> D&eacute;g&acirc;ts au Compagnon</em> pour votre wyverne, ajoutez +2 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p><strong>Sauvage :</strong> Lorsque vous <em>Frappez</em> en ordonnant &agrave; votre wyvern d&rsquo;attaquer, ((rollplus heart)). Votre wyverne inflige 3 d&eacute;g&acirc;ts sur un succ&egrave;s.</p>"
+				}
+			]
+		},
+		"Path / Alchemist": {
+			"frName": "Voie / Alchimiste",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous cr&eacute;ez un &eacute;lixir, choisissez l&rsquo;un des effets suivants : habilet&eacute; (vivacit&eacute;), audace (coeur), vigueur (fer), ruse (ombre) ou lucidit&eacute; (astuce). Puis, subissez une p&eacute;nalit&eacute; de -1 provisions et ((rollplus wits)). Sur un coup fort, vous cr&eacute;ez une dose unique. Un personnage qui boit l&rsquo;&eacute;lixir doit Faire <em>Face au Danger</em> avec ((rollplus iron)); s&rsquo;il obtient un succ&egrave;s, il ajoute +1 lorsqu&rsquo;il d&eacute;clenche des actions avec la caract&eacute;ristique correspondante jusqu&rsquo;&agrave; ce que son score de sant&eacute;, d&rsquo;esprit ou d&rsquo;&eacute;lan tombe en-dessous de 1. Sur un coup faible, comme pr&eacute;c&eacute;demment, mais vous subissez une p&eacute;nalit&eacute; suppl&eacute;mentaire de -1 provisions pour cr&eacute;er la dose.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Comme pr&eacute;c&eacute;demment, et vous pouvez choisir deux effets pour une dose unique, ou cr&eacute;er deux doses avec le m&ecirc;me effet.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous pr&eacute;parez un &eacute;lixir, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				}
+			]
+		},
+		"Path / Animal Kin": {
+			"frName": "Voie / Dresseur",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous d&eacute;clenchez une action pour apaiser, calmer, contr&ocirc;ler, aider ou repousser un animal (ou un compagnon animal ou b&ecirc;te), ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Vous pouvez acqu&eacute;rir ou am&eacute;liorer un atout de compagnon animal ou b&ecirc;te pour un point d&rsquo;exp&eacute;rience en moins. Une fois que vous aurez remplis toutes les capacit&eacute;s de cet atout, vous pouvez <em>Forgez un Lien</em> avec ce compagnon et obtenir automatiquement un succ&egrave;s fort. Si vous le faites, notez deux coches sur votre jauge de liens, et gagnez +1 exp&eacute;rience.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Une fois par combat, lorsque vous faites appel &agrave; votre compagnon animal ou b&ecirc;te pour d&eacute;clenchez une action, vous pouvez relancer n&rsquo;importe quel d&eacute;. Sur un succ&egrave;s, vous gagnez +1 &eacute;lan.</p>"
+				}
+			]
+		},
+		"Path / Banner-Sworn": {
+			"frName": "Voie / Bannière-juré",
+			"frDescription": "Lorsque vous marquez un lien avec un meneur ou une faction…",
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous <em>Jurez le V&oelig;u de Fer</em> de servir votre meneur ou votre faction durant une mission, vous pouvez relancer n&rsquo;importe quel d&eacute;. Quand vous <em>R&eacute;alisez votre V&oelig;u</em> et notez votre exp&eacute;rience, vous gagnez +1 exp&eacute;rience.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous <em>S&eacute;journez</em> ou que vous <em>Montez un Camp</em> en compagnie de vos fr&egrave;res et s&oelig;urs de banni&egrave;re, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous <em>Plongez dans la M&ecirc;l&eacute;e</em> en brandissant votre banni&egrave;re, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s. Quand vous br&ucirc;lez de l&rsquo;&eacute;lan en portant votre banni&egrave;re au combat, vous gagnez +1 &eacute;lan apr&egrave;s r&eacute;initialisation.</p>"
+				}
+			]
+		},
+		"Path / Battle-Scarred": {
+			"frName": "Voie / Blessé de Guerre",
+			"frDescription": "Une fois que vous êtes mutilé…",
+			"frAbilities": [
+				{
+					"enabled": "False",
+					"description": "<p>Vous concentrez votre &eacute;nergie : R&eacute;duisez votre caract&eacute;ristique vivacit&eacute; ou fer de 1 et ajoutez +2 en astuce ou en c&oelig;ur, ou bien +1 &agrave; chacune (pour un maximum de +4).</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Vous surmontez vos limitations : R&eacute;duisez votre maximum de sant&eacute; de 1. Mutil&eacute; ne compte plus comme un handicap : ignorez la p&eacute;nalit&eacute; d&rsquo;&eacute;lan maximum et de r&eacute;initialisation. Lorsque vous <em>Subissez un Stress</em> avec ((rollplus heart)), gagnez +1 &eacute;lan sur un succ&egrave;s fort.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Vous avez d&eacute;j&agrave; d&eacute;fi&eacute; la mort : Lorsque vous tombez &agrave; 0 sant&eacute; et que vous <em>Subissez des D&eacute;g&acirc;ts</em>, vous pouvez ((rollplus wits)) ou ((rollplus heart)) (au lieu de ((rollplus health)) ou ((rollplus iron))) et gagner +1 &eacute;lan sur un succ&egrave;s.</p>"
+				}
+			]
+		},
+		"Path / Blade-Bound": {
+			"frName": "Voie / Lame-Liée",
+			"frDescription": "Une fois que vous avez noté un lien avec une lame-liée, cette arme intelligente qui abrite l’esprit de l’un de vos ancêtres…",
+			"frAbilities": [
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous <em>Plongez dans la M&ecirc;l&eacute;e</em> ou <em>Tracez le Cercle</em> en maniant votre lameli&eacute;e, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous <em>R&eacute;coltez des Informations</em> en &eacute;coutant les murmures de votre lame-li&eacute;e, ajoutez +1 et gagnez +2 &eacute;lan sur un succ&egrave;s, puis <em>Subissez un Stress</em> (2 stress).</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous <em>Frappez</em> de fa&ccedil;on brutale avec votre lame-li&eacute;e (choisissez avant de jeter les d&eacute;s), ajoutez +1 et infligez +2 d&eacute;g&acirc;ts sur un succ&egrave;s, puis <em>Subissez un Stress</em> (2 stress).</p>"
+				}
+			]
+		},
+		"Path / Bonded": {
+			"frName": "Voie / Lié",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous d&eacute;clenchez une action qui vous octroie un ajout si vous partagez un lien, ajoutez +1 suppl&eacute;mentaire.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous remplissez compl&egrave;tement une case de votre jauge de liens, visualisez ce que vos relations vous ont apprises. Vous gagnez +1 exp&eacute;rience et +2 &eacute;lan.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous d&eacute;clenchez une action &agrave; un moment crucial et que vous obtenez un &eacute;chec, vous pouvez puiser du courage et du soutien en pensant &agrave; celles et ceux avec qui vous &ecirc;tes li&eacute;s. Si vous le faites, vous pouvez relancer n&rsquo;importe quel d&eacute;. Sur un nouvel &eacute;chec, vous devez noter secou&eacute; ou corrompu en plus du r&eacute;sultat de l&rsquo;action. Si ces deux handicaps sont d&eacute;j&agrave; not&eacute;s, vous devez Faire <em>Face &agrave; la D&eacute;solation</em>.</p>"
+				}
+			]
+		},
+		"Path / Dancer": {
+			"frName": "Voie / Danseur",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous vous <em>Emparez d&rsquo;un Avantage</em> avec ((rollplus edge)) en dansant devant un public, ajoutez +1 et gagnez +2 &eacute;lan sur un succ&egrave;s. Sur un coup fort, ajoutez &eacute;galement +2 si vous d&eacute;clenchez une action afin d&rsquo;interagir avec quelqu&rsquo;un du public (une seule fois seulement).</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous <em>Faites Face au Danger</em> avec ((rollplus edge)) en combat afin d&rsquo;esquiver adroitement les attaques de vos adversaires, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous ou l&rsquo;un de vos alli&eacute;s d&eacute;clenchez une action de progr&egrave;s et obtenez un succ&egrave;s, vous pouvez accomplir une danse afin de c&eacute;l&eacute;brer l&rsquo;&eacute;v&eacute;nement. Si vous le faites, ((rollplus edge)). Sur un coup fort, vous et chacun de vos alli&eacute;s gagnez +2 &eacute;lan et +1 esprit. Sur un coup faible, vous gagnez +1 &eacute;lan ou +1 esprit, mais vos alli&eacute;s restent indiff&eacute;rents.</p>"
+				}
+			]
+		},
+		"Path / Devotant": {
+			"frName": "Voie / Dévôt",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous r&eacute;citez vos pri&egrave;res quotidiennes, vous pouvez vous <em>Emparer d&rsquo;un Avantage</em> en demandant la b&eacute;n&eacute;diction de votre dieu. Si c&rsquo;est le cas, faites un jet +la caract&eacute;ristique de votre dieu. Sur un succ&egrave;s, vous gagnez +2 &eacute;lan.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous <em>Jurez le V&oelig;u de Fer</em> de servir votre dieu durant une qu&ecirc;te divine, vous pouvez faire un jet +la caract&eacute;ristique de votre dieu et relancer n&rsquo;importe quel d&eacute;. Quand vous<em> R&eacute;alisez votre V&oelig;u</em> et notez votre exp&eacute;rience, vous gagnez +1 exp&eacute;rience.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous <em>S&eacute;journez</em> et r&eacute;pandez la bonne parole de votre dieu, vous pouvez faire un jet +la caract&eacute;ristique de votre dieu et gagner +1 &eacute;lan sur un succ&egrave;s.</p>"
+				}
+			]
+		},
+		"Path / Improviser": {
+			"frName": "Voie / Ingénieux",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous <em>V&eacute;rifiez votre &Eacute;quipement</em>*, vous pouvez ((rollplus wits)) (&agrave; la place de ((rollplus supply))). Si vous le faites, visualisez le bricolage astucieux que vous parvenez &agrave; faire, et gagnez +1 &eacute;lan sur un succ&egrave;s.</p> <p><em>* NDT: Cette action est d&eacute;crite dans le suppl&eacute;ment Delve.</em></p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous vous <em>Emparez d&rsquo;un Avantage</em> ou que vous<em> Faites Face au Danger</em> en bricolant un outil ou un mat&eacute;riel ad&eacute;quat, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s. Apr&egrave;s votre jet, vous pouvez subir une p&eacute;nalit&eacute; de -1 provisions pour ajouter +1 suppl&eacute;ment.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous faites fi de toute prudence et d&eacute;clenchez une action de fa&ccedil;on impulsive lors d&rsquo;une situation risqu&eacute;e, vous pouvez ajouter +2. Si vous le faites, gagnez +1 &eacute;lan sur un coup fort, mais consid&eacute;rez un coup faible comme un &eacute;chec.</p>"
+				}
+			]
+		},
+		"Path / Weaponmaster": {
+			"frName": "Voie / Maître d’armes",
+			"frDescription": "Une fois que vous *Réalisez votre Vœu* (de rang redoutable ou plus) au service d’un guerrier expérimenté et que vous *Forgez un Lien* pour vous entraîner avec lui…",
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous vous <em>Emparez d&rsquo;un Avantage</em> en &eacute;valuant votre ennemi lors d&rsquo;un combat, ou d&rsquo;une situation tendue pouvant conduire &agrave; un combat, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous &eacute;tudiez une nouvelle technique ou vous entra&icirc;nez au maniement d&rsquo;une nouvelle arme, vous pouvez acqu&eacute;rir ou am&eacute;liorer un talent de combat pour 1 point d&rsquo;exp&eacute;rience de moins.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous <em>Renversez la Situation</em> avec un changement soudain d&rsquo;arme ou de technique et que votre action suivante consiste &agrave; <em>Frapper</em>, vous pouvez ajouter +1 et infliger +2 d&eacute;g&acirc;ts sur un coup fort.</p>"
+				}
+			]
+		},
+		"Ritual / Invoke": {
+			"frName": "Rituel / Invocation",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous absorbez l&rsquo;essence mystique autour de vous, ((rollplus wits)). Sur un coup fort, ajoutez le r&eacute;sultat de votre d&eacute; d&rsquo;action &agrave; votre jauge d&rsquo;essence (score maximum 6). Vous pouvez alors vous <em>Emparer d&rsquo;un Avantage</em> ou <em>Faire Face au Danger</em> avec +essence afin de cr&eacute;er des effets mystiques mineurs ou des illusions. Si vous le faites, vous subissez -1 essence et gagnez +1 &eacute;lan sur un succ&egrave;s. Sur un coup faible, comme pr&eacute;c&eacute;demment, mais capturer les &eacute;nergies est tr&egrave;s &eacute;prouvant : vous <em>Subissez un Stress</em> (2 stress).</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "Vous pouvez Contraindre avec +essence (vous subissez alors une pénalité de -1 essence) à travers un étalage de puissance."
+				},
+				{
+					"enabled": "False",
+					"description": "Lorsque vous effectuez ce rituel, ajoutez +1 et gagnez +1 essence sur un succès."
+				}
+			]
+		}
+	}
+}
