@@ -546,6 +546,24 @@
 				}
 			]
 		},
+		"Path / Commander": {
+			"frName": "Voie / Commandant",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Vous dirigez une troupe ayant une jauge de +4 force.((rollplus strength)) lorsque vous commandez &agrave; votre troupe de <em>Faire Face au Danger</em>, de S&rsquo;<em>Emparer d&rsquo;un Avantage</em>, de <em>Contraindre</em> ou de <em>Batailler</em>. Lorsque vous devez faire face &agrave; une cons&eacute;quence n&eacute;gative r&eacute;sultant d&rsquo;une de ces actions, vous pouvez subir une p&eacute;nalit&eacute; de -1 force &agrave; la place. Lorsque vous <em>Montez le Camp</em> ou <em>S&eacute;journez</em>, vous gagnez +1 force sur un succ&egrave;s. Cet atout compte comme un handicap si votre jauge de force est &agrave; 0.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Vous pouvez envoyer des &eacute;claireurs de votre troupe afin de <em>R&eacute;colter des Informations</em> ou de vous <em>Ravitailler</em>. Si vous le faites, ((rollplus strength)).</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Une fois que vous avez <em>Forg&eacute; un Lien</em> avec votre troupe, vous gagnez +1 &eacute;lan sur un succ&egrave;s &agrave; chaque fois que vous utilisez l&rsquo;une des capacit&eacute;s de cet atout.</p>"
+				}
+			]
+		},
 		"Path / Dancer": {
 			"frName": "Voie / Danseur",
 			"frDescription": null,
@@ -582,6 +600,96 @@
 				}
 			]
 		},
+		"Path / Empowered": {
+			"frName": "Voie / Potentat",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous <em>S&eacute;journez</em> et obtenez un coup faible ou un &eacute;chec, vous pouvez faire appel au devoir d&rsquo;hospitalit&eacute; d&ucirc; &agrave; votre titre ou votre lignage. Si vous le faites, rejetez tous les d&eacute;s et ajoutez +1. Sur un nouvel &eacute;chec, on vous rejette, et votre pr&eacute;tention engendre un nouveau probl&egrave;me.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous faites falloir votre titre ou votre lignage pour <em>Contraindre</em>, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous mettez de c&ocirc;t&eacute; votre titre ou votre lignage afin de <em>Forgez un Lien</em> en tant qu&rsquo;&eacute;gal, ou lorsque vous <em>Jurez un Voeu de Fer</em> de servir quelqu&rsquo;un ayant une condition sociale inf&eacute;rieure &agrave; la v&ocirc;tre, ajoutez +1 et gagnez +1 &eacute;lan ou +1 esprit sur un succ&egrave;s.</p>"
+				}
+			]
+		},
+		"Path / Fated": {
+			"frName": "Voie / Destinée",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous <em>Faites Face &agrave; la Mort</em> ou <em>Faites Face &agrave; la D&eacute;solation</em> alors que votre voeu d&rsquo;ant&eacute;c&eacute;dent n&rsquo;est pas r&eacute;alis&eacute;, votre heure n&rsquo;est pas encore venue. Au lieu de jeter les d&eacute;s, vous pouvez obtenir un coup fort automatiquement. Si vous le faites, cet atout compte comme un handicap (et vous ne b&eacute;n&eacute;ficiez plus de cette possibilit&eacute;) jusqu&rsquo;&agrave; ce que vous <em>Atteignez un nouveau Jalon</em> sur votre voeu d&rsquo;ant&eacute;c&eacute;dent.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous <em>Atteignez un Jalon</em> sur votre voeu d&rsquo;ant&eacute;c&eacute;dent, vous gagnez +2 &eacute;lan ou +1 esprit.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Toutes les deux cases enti&egrave;rement coch&eacute;es sur la jauge de votre voeu d&rsquo;ant&eacute;c&eacute;dent, vous gagnez +1 exp&eacute;rience. Lorsque vous <em>R&eacute;alisez votre Voeu</em>, votre destin est &agrave; port&eacute;e de main. Visualisez votre ultime sacrifice, et rejetez n&rsquo;importe quel d&eacute;.</p>"
+				}
+			]
+		},
+		"Path / Fortune Hunter": {
+			"frName": "Voie / Chasseur de Fortune",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous <em>Jurez un Voeu de Fer</em> &agrave; quelqu&rsquo;un moyennant la promesse d&rsquo;une r&eacute;tribution financi&egrave;re, ajoutez +1 et distinguez cette qu&ecirc;te par une marque particuli&egrave;re. Lorsque vous <em>R&eacute;alisez votre Voeu</em> et obtenez un succ&egrave;s, vous gagnez +richesses &eacute;quivalent au rang de la qu&ecirc;te. Si vous mettez en avant votre richesse lorsque vous d&eacute;clenchez une action pour laquelle les ressources peuvent entre en ligne de compte, ajoutez +richesses et subissez une p&eacute;nalit&eacute; de -1 richesses.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous vous trouvez au sein d&rsquo;une communaut&eacute;, ou lors d&rsquo;un &eacute;change commercial, vous pouvez subir une p&eacute;nalit&eacute; de -1 richesses. Si vous le faites, vous gagnez +2 provisions.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous vous <em>Ravitaillez</em> en fouillant ou en pillant, et que vous obtenez un coup fort avec une &eacute;galit&eacute;, vous pouvez visualiser la d&eacute;couverte d&rsquo;un objet ayant de la valeur. Si vous le faites, vous gagnez +1 provisions (au lieu de +2) et +1 richesses.</p>"
+				}
+			]
+		},
+		"Path / Herbalist": {
+			"frName": "Voie / Herboriste",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous tentez de <em>Gu&eacute;rir</em> en utilisant des rem&egrave;des &agrave; base de plantes et que vous disposez d&rsquo;au moins +1 provisions, vous pouvez choisir l&rsquo;un des deux effets suivants (&agrave; d&eacute;cider avant le jet) :</p> <ul> <li>Ajoutez +2.</li> <li>Sur un succ&egrave;s, gagnez ou prodiguez +1 sant&eacute; suppl&eacute;mentaire.</li> </ul>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous <em>Gu&eacute;rissez</em> un compagnon, un alli&eacute; ou un autre personnage et que vous obtenez un succ&egrave;s, vous gagnez +1 esprit ou +1 &eacute;lan.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous <em>Montez un Camp</em> et s&eacute;lectionnez l&rsquo;option festoyer, vous pouvez cuisiner un repas revigorant. Si vous le faites, vos compagnons et vous pouvez gagner +1 sant&eacute;. Tout alli&eacute; qui choisit lui aussi de festoyer gagne &eacute;galement +1 sant&eacute;, sans subir de p&eacute;nalit&eacute; de -provisions.</p>"
+				}
+			]
+		},
+		"Path / Honorbound": {
+			"frName": "Voie / Honorable",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous <em>Renversez la Situation</em>, visualisez comment vos voeux vous donnent de la force dans ce moment d&eacute;cisif. Puis, ajoutez +2 (au lieu de +1) quand vous faites votre jet, et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous vous <em>Emparez d&rsquo;un Avantage</em> ou que vous Contraignez quelqu&rsquo;un en lui r&eacute;v&eacute;lant une dure v&eacute;rit&eacute;, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s. Sur un coup faible ou un &eacute;chec, visualisez comment cette v&eacute;rit&eacute; complique votre situation actuelle.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous <em>R&eacute;alisez votre Voeu</em> et obtenez un &eacute;chec, vous pouvez relancer l&rsquo;un des d&eacute;s de d&eacute;fi. Si vous obtenez &agrave; nouveau un &eacute;chec, r&eacute;duisez d&rsquo;un point votre score maximum en esprit. Vous pourrez retrouver votre niveau normal la prochaine fois que vous <em>R&eacute;aliserez votre Voeu</em> et obtiendrez un coup fort.</p>"
+				}
+			]
+		},
 		"Path / Improviser": {
 			"frName": "Voie / Ingénieux",
 			"frDescription": null,
@@ -597,6 +705,348 @@
 				{
 					"enabled": "False",
 					"description": "<p>Lorsque vous faites fi de toute prudence et d&eacute;clenchez une action de fa&ccedil;on impulsive lors d&rsquo;une situation risqu&eacute;e, vous pouvez ajouter +2. Si vous le faites, gagnez +1 &eacute;lan sur un coup fort, mais consid&eacute;rez un coup faible comme un &eacute;chec.</p>"
+				}
+			]
+		},
+		"Path / Infiltrator": {
+			"frName": "Voie / Infiltré",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous d&eacute;clenchez une action pour faire une br&egrave;che, traverser, ou vous cacher au sein d&rsquo;une zone tenue par un ennemi, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous<em> R&eacute;coltez des Informations</em> &agrave; l&rsquo;int&eacute;rieur d&rsquo;un territoire ennemi afin de d&eacute;couvrir ses positions, ses plans, ou ses m&eacute;thodes, ou lorsque vous vous Emparez d&rsquo;un Avantage &agrave; l&rsquo;int&eacute;rieur de ce territoire en usant d&rsquo;observation, vous pouvez faire un jet avec ((rollplus shadow)) (au lieu de ((rollplus wits))). Si vous le faites, vous gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous vous <em>Ravitaillez</em> &agrave; l&rsquo;int&eacute;rieur d&rsquo;un territoire ennemi en fouillant ou en pillant, vous pouvez faire un jet avec ((rollplus shadow)) (au lieu de ((rollplus wits))). Si vous le faites, vous gagnez +1 &eacute;lan ou +1 provisions sur un succ&egrave;s.</p>"
+				}
+			]
+		},
+		"Path / Lorekeeper": {
+			"frName": "Voie / Gardien du Savoir",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Vous &ecirc;tes d&eacute;positaire d&rsquo;archives mystiques. Lorsque vous vous <em>Emparez d&rsquo;un Avantage</em> ou que vous <em>R&eacute;coltez des Informations</em> en vous rem&eacute;morant des connaissances issues de vos &eacute;tudes, ajoutez +1. Si vous passez quelques heures &agrave; faire des recherches dans vos archives, ajoutez +2. Sur un succ&egrave;s, visualisez les sombres d&eacute;couvertes que vous mettez &agrave; profit (<em>Consultez l&rsquo;Oracle</em> en cas de doute) et gagnez +1 &eacute;lan.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous apprenez l&rsquo;existence d&rsquo;un lieu ou d&rsquo;un objet d&eacute;tenteur d&rsquo;un savoir oubli&eacute;, et que vous <em>Jurez un Voeu de Fer</em> de le retrouver pour vos archives, rejetez n&rsquo;importe quel d&eacute;. Lorsque vous <em>R&eacute;alisez votre Voeu</em> et notez votre exp&eacute;rience, gagnez +1 exp&eacute;rience.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Une fois seulement, vous pouvez explorer les secrets interdits de vos archives. Si vous le faites, augmentez votre astuce de 1 et jetez un d&eacute; d&rsquo;action. Sur un r&eacute;sultat de 1 &agrave; 3, vous devez &eacute;galement notez l&rsquo;handicap corrompu ou Faire Face &agrave; la D&eacute;solation (ignorez l&rsquo;&eacute;lan pour cette action).</p>"
+				}
+			]
+		},
+		"Path / Loyalist": {
+			"frName": "Voie / Loyaliste",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous <em>Aidez votre Alli&eacute;</em>, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s, ind&eacute;pendamment des b&eacute;n&eacute;fices re&ccedil;us par votre alli&eacute;.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsqu&rsquo;un alli&eacute; d&eacute;clenche l&rsquo;action <em>Subir un Stress</em> en votre compagnie, celui-ci ajoute +1 et vous gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous &ecirc;tes aux c&ocirc;t&eacute;s d&rsquo;un alli&eacute; quand celui-ci d&eacute;clenche une action de progr&egrave;s, visualisez comment vous le soutenez. Puis lancez un d&eacute; de d&eacute;fi. Sur un 1-9, votre alli&eacute; peut remplacer l&rsquo;un de ses d&eacute;s de d&eacute;fi par le v&ocirc;tre. Sur un 10, visualisez comment vous ruinez son action par inadvertance : votre alli&eacute; doit remplacer son d&eacute; de d&eacute;fi le moins &eacute;lev&eacute; par le v&ocirc;tre.</p>"
+				}
+			]
+		},
+		"Path / Masked": {
+			"frName": "Voie / Masqué",
+			"frDescription": "Une fois que vous avez forgé un lien avec les elfes, et que vous avez reçu en présent un masque de bois elfique précieux...",
+			"frAbilities": [
+				{
+					"enabled": "False",
+					"description": "<p>Choisissez en quel bois est votre masque :</p> <ul> <li>Bois-Tonnerre : Vicacit&eacute; / Sant&eacute;</li> <li>Bois de Sang : Fer / Sant&eacute;</li> <li>Bois-Fant&ocirc;me : Ombre / Esprit</li> <li>Bois-Murmure Astuce / Esprit</li> </ul> <p>Lorsque vous portez ce masque et d&eacute;clenchez une action qui utilise cette caract&eacute;ristique, ajoutez +1. Si vous obtenez un 1 sur votre d&eacute; d&rsquo;action, vous subissez -1 sur la jauge associ&eacute;e (en plus de tout autre r&eacute;sultat de l&rsquo;action).</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Comme pr&eacute;c&eacute;demment, mais vous pouvez d&eacute;cider d&rsquo;ajouter +2, au risque de subir -2 (d&eacute;cidez-en avant votre jet).</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous Faites <em>Face &agrave; la Mort</em> ou &agrave; la <em>Faites Face &agrave; la D&eacute;solation</em> en portant votre masque, vous pouvez faire un jet +sa caract&eacute;ristique (au lieu de ((rollplus heart))).</p>"
+				}
+			]
+		},
+		"Path / Oathbreaker": {
+			"frName": "Voie / Parjure",
+			"frDescription": "Une fois que vous avez <em>Abandonn&eacute; votre Voeu</em>...",
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p><strong>Cet atout compte comme un handicap.</strong> Une fois seulement, lorsque vous <em>Jurez un Voeu de Fer</em> pour vous rachetez (au minimum de rang extr&ecirc;me), distinguez cette qu&ecirc;te par une marque particuli&egrave;re. Lorsque vous <em>Atteignez un Jalon</em> sur cette qu&ecirc;te particuli&egrave;re, vous gagnez +2 &eacute;lan.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous vous <em>Emparez d&rsquo;un Avantage</em> ou que vous <em>Contraignez</em> en r&eacute;affirmant votre engagement envers votre qu&ecirc;te particuli&egrave;re, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous <em>R&eacute;alisez votre Voeu</em> et obtenez un succ&egrave;s pour votre qu&ecirc;te particuli&egrave;re, vous vous rachetez et activez automatiquement cette capacit&eacute; sans d&eacute;penser d&rsquo;exp&eacute;rience. Vous pouvez alors augmenter l&rsquo;une de vos caract&eacute;ristique de +1 et <strong>d&eacute;fausser cet atout</strong>.</p>"
+				}
+			]
+		},
+		"Path / Outcast": {
+			"frName": "Voie / Paria",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vos provisions tombent &agrave; 0, subissez tout reliquat de p&eacute;nalit&eacute; de provisions en p&eacute;nalit&eacute; d&rsquo;&eacute;lan. Puis, ((rollplus wits)). Sur un coup fort, visualisez comment vous parvenez &agrave; vous en sortir et gagnez +1 provisions. Sur un coup faible, vous pouvez subir -2 &eacute;lan en &eacute;change de +1 provisions. Sur un &eacute;chec, vous &ecirc;tes <em>&Agrave; Court de Provisions</em>.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous <em>S&eacute;journez</em>, vous pouvez relancer n&rsquo;importe quel d&eacute;. Si vous le faites (d&eacute;cidez-en avant votre premier jet), vos besoins sont menus, mais votre isolement vous distingue des autres. Un coup fort est consid&eacute;r&eacute; comme un coup faible.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous <em>Atteignez votre Destination</em> et obtenez un coup fort, vous vous rappelez ou reconnaissez quelque-chose d&rsquo;utile sur ce lieu. Visualisez de quoi il s&rsquo;agit et gagnez +2 &eacute;lan.</p>"
+				}
+			]
+		},
+		"Path / Pretender": {
+			"frName": "Voie / Imposteur",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous adoptez une fausse identit&eacute;, ((rollplus shadow)). Sur un coup fort, vous pouvez ajouter +2 lorsque vous d&eacute;clenchez des actions qui tirent parti de cette identit&eacute; pour tromper ou influencer les autres. Si vous obtenez un r&eacute;sultat de 1 sur votre d&eacute; d&rsquo;action lorsque vous utilisez votre fausse identit&eacute;, quelqu&rsquo;un doutera de vous. D&eacute;clenchez alors les actions appropri&eacute;es pour le rassurer ou l&rsquo;emp&ecirc;cher de r&eacute;v&eacute;ler la v&eacute;rit&eacute;. Sur un coup faible, comme pr&eacute;c&eacute;demment, mais n&rsquo;ajoutez que +1 (au lieu de +2).</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Comme pr&eacute;c&eacute;demment, mais vous pouvez aussi&nbsp;((rollplus shadow)) (au lieu de ((rollplus heart))) lorsque vous S&eacute;journez sous une fausse identit&eacute;. Si vous le faites, vous gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous vous <em>Emparez d&rsquo;un Avantage</em> en r&eacute;v&eacute;lant votre v&eacute;ritable identit&eacute; durant un moment dramatique, relancez n&rsquo;importe quel d&eacute;.</p>"
+				}
+			]
+		},
+		"Path / Revenant": {
+			"frName": "Voie / Revenant",
+			"frDescription": "Une fois que vous Faites Face à la Mort et que vous retournez dans le monde des vivants...",
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque votre sant&eacute; tombe &agrave; 0, et que vous <em>Subissez des D&eacute;g&acirc;ts</em> ou que vous <em>Faites Face &agrave; la Mort</em>, ajoutez +1. Si vous br&ucirc;lez ensuite de l&rsquo;&eacute;lan pour am&eacute;liorer votre r&eacute;sultat, visualisez quel lien ou voeu vous relie &agrave; ce monde, puis gagnez +2 &eacute;lan apr&egrave;s votre r&eacute;initialisation.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous d&eacute;clenchez une action pour enqu&ecirc;ter sur, vous opposer &agrave; ou interagir avec une horreur, un esprit ou toute autre cr&eacute;ature morte-vivante, ajoutez +1.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous <em>Mettez Fin au Combat</em> en tuant votre ennemi, vous pouvez br&ucirc;ler de l&rsquo;&eacute;lan pour annuler l&rsquo;un de vos deux d&eacute;s de d&eacute;fi (mais pas les deux) si votre &eacute;lan est sup&eacute;rieur au r&eacute;sultat de ce d&eacute;. Si vous le faites, vous<em> Subissez un Stress</em> (2 stress).</p>"
+				}
+			]
+		},
+		"Path / Rider": {
+			"frName": "Voie / Cavalier",
+			"frDescription": "Si vous êtes accompagné de votre compagnon cheval...",
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous <em>Gu&eacute;rissez</em> votre cheval, ou lorsque vous <em>Faites Face au Danger</em> pour le calmer ou l&rsquo;encourager, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous <em>Entreprenez un Voyage</em>, vous pouvez forcer l&rsquo;allure de votre monture et ajouter +1. Si vous le faites, d&eacute;clenchez l&rsquo;action <em>D&eacute;g&acirc;ts au Compagnon</em> (1 d&eacute;g&acirc;t).</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous vous <em>Emparez d&rsquo;un Avantage</em> avec un jet ((rollplus wits)) en g&eacute;rant une situation p&eacute;rilleuse depuis votre selle, vous ne faites qu&rsquo;un avec l&rsquo;instinct de votre cheval. Ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				}
+			]
+		},
+		"Path / Ritualist": {
+			"frName": "Voie / Ritualiste",
+			"frDescription": "Après avoir Réalisé votre Voeu (de rang redoubable ou plus) au service d’un grand mystique et que vous Forgez un Lien avec celui-ci pour qu’il vous entraîne...",
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous vous<em> Emparez d&rsquo;un Avantage</em> pour vous pr&eacute;parer &agrave; un rituel, visualisez comment vous vous pr&eacute;parez. Puis, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous effectuez un rituel, vous pouvez subir une p&eacute;nalit&eacute; de -1 provisions en &eacute;change d&rsquo;un ajout de +1 (d&eacute;cidez-en avant de faire votre jet).</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous tatouez l&rsquo;essence d&rsquo;un nouveau rituel sur votre peau, visualisez la marque que vous dessinez. Vous pouvez ensuite acqu&eacute;rir et am&eacute;liorer cet atout rituel pour 1 point d&rsquo;exp&eacute;rience de moins.</p>"
+				}
+			]
+		},
+		"Path / Shadow-Kin": {
+			"frName": "Voie / Peuple des Ombres",
+			"frDescription": "Une fois que vous êtes corrompu...",
+			"frAbilities": [
+				{
+					"enabled": "False",
+					"description": "<p>Votre coeur s&rsquo;endurcit : R&eacute;duisez votre caract&eacute;ristique coeur de 1 et ajoutez +2 en ombre (votre score d&rsquo;ombre ne peut pas d&eacute;passer +4).</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Vous &ecirc;tes en harmonie avec le royaume des ombres. Lorsque vous effectuez un rituel, ajoutez +1.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Vous &ecirc;tes familier des espi&egrave;gleries de la mort : Lorsque vous <em>Faites Face &agrave; la Mort</em>, vous pouvez ((rollplus shadow)) (au lieu de ((rollplus heart))). Sur un coup faible, si vous choisissez d&rsquo;accomplir une qu&ecirc;te fun&egrave;bre, vous pouvez <em>Jurer un Voeu de Fer</em> ((rollplus shadow)) (au lieu de ((rollplus heart))) et relancer n&rsquo;importe quel d&eacute;s. Lorsque vous <em>R&eacute;alisez votre Voeu</em> relatif &agrave; cette qu&ecirc;te et que vous marquez votre exp&eacute;rience, vous gagnez +2 exp&eacute;rience.</p>"
+				}
+			]
+		},
+		"Path / Sighted": {
+			"frName": "Voie / Médium",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous <em>Faites Face au Danger</em> ou que vous <em>R&eacute;coltez des Informations</em> afin d&rsquo;identifier ou de d&eacute;tecter des forces mystiques, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous <em>Contraignez</em>, <em>Forgez un Lien</em> ou <em>Testez votre Lien</em> avec un autre mystique ou une cr&eacute;ature mystique, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous vous <em>Emparez d&rsquo;un Avantage</em> en &eacute;tudiant une personne ou un objet dans une situation tendue, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s. Lorsque vous le faites en per&ccedil;ant le voile pour explorer des v&eacute;rit&eacute;s plus profondes (d&eacute;cidez-en avant votre jet), vous pouvez relancer n&rsquo;importe quel d&eacute;. Si vous le faites, consid&eacute;rez un coup faible comme un &eacute;chec.</p>"
+				}
+			]
+		},
+		"Path / Slayer": {
+			"frName": "Voie / Tueur",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous <em>R&eacute;coltez des Informations</em> en traquant une b&ecirc;te ou une horreur, ou que vous vous <em>Emparez d&rsquo;un Avantage</em> en vous pr&eacute;parant &agrave; affronter ces cr&eacute;atures, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous <em>Jurez un Voeu</em> de Fer visant &agrave; tuer une horreur ou une b&ecirc;te, relancez n&rsquo;importe quel d&eacute;. Quand vous <em>R&eacute;alisez votre Voeu</em> et notez votre exp&eacute;rience, vous gagnez +1 exp&eacute;rience.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous tuez une horreur ou une b&ecirc;te (au minimum de rang redoutable) vous pouvez pr&eacute;lever un troph&eacute;e et retenir l&rsquo;une de ces options :</p> <ul> <li>Alimenter un rituel : Lorsque vous ou l&rsquo;un de vos alli&eacute;s d&eacute;clenchez une action de rituel, relancez n&rsquo;importe quel d&eacute; (une fois seulement).</li> <li>Prouver votre valeur : Lorsque vous <em>S&eacute;journez</em>, relancez n&rsquo;importe quel d&eacute; (une fois seulement).</li> </ul>"
+				}
+			]
+		},
+		"Path / Spirit-Bound": {
+			"frName": "Voie / Hanté",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Vous &ecirc;tes hant&eacute; par l&rsquo;esprit d&rsquo;une personne dont vous avez caus&eacute; la mort par vos actions ou vos d&eacute;faillances. Lorsque vous consultez l&rsquo;esprit afin de vous <em>Emparer d&rsquo;un Avantage</em> ou de <em>R&eacute;colter des Informations</em>, ajoutez +1 et gagnez +2 &eacute;lan sur un succ&egrave;s. Sur un coup faible, vous Subissez un Stress (1 stress).</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous <em>Faites Face &agrave; la Mort</em> en &eacute;tant guid&eacute; par l&rsquo;esprit, ajoutez +1. Sur un coup fort, visualisez ce que vous apprenez, et gagnez +1 exp&eacute;rience.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Une fois seulement, sur un succ&egrave;s lorsque vous <em>R&eacute;alisez votre Voeu</em> (de rang redoutable ou plus) au service de l&rsquo;esprit, retenez l&rsquo;une des options suivantes :</p> <ul> <li>Le laisser partir : gagnez +2 exp&eacute;rience pour chaque capacit&eacute; not&eacute;e sur cet atout, puis d&eacute;faussez cet atout.</li> <li>Approfondir votre connexion : ajoutez +1 suppl&eacute;mentaire aux ajouts octroy&eacute;s lorsque vous utilisez cet atout.</li> </ul>"
+				}
+			]
+		},
+		"Path / Storyweaver": {
+			"frName": "Voie / Conteur",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous vous <em>Emparez d&rsquo;un Avantage</em>, que vous <em>Contraignez</em> ou que vous <em>Forgez un Lien</em> en partageant une chanson inspirante ou instructive, un po&egrave;me ou un conte, visualisez le r&eacute;cit que vous d&eacute;clamez. Puis, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous <em>Montez un Camp</em> et choisissez l&rsquo;option de vous relaxer, vous pouvez partager une histoire avec vos alli&eacute;s ou en composer une nouvelle si vous &ecirc;tes seul. Si vous le faites, visualisez votre r&eacute;cit et gagnez +1 esprit ou +1 &eacute;lan. Tous les alli&eacute;s qui choisissent de se relaxer en votre compagnie peuvent &eacute;galement gagner +1 esprit ou +1 &eacute;lan.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous <em>S&eacute;journez</em> au sein d&rsquo;une communaut&eacute; avec laquelle vous partagez un lien, ajoutez +2 (au lieu de +1).</p>"
+				}
+			]
+		},
+		"Path / Trickster": {
+			"frName": "Voie / Farceur",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous <em>Faites Face au Danger</em>, que vous vous <em>Emparez d&rsquo;un Avantage</em> ou que vous <em>Contraignez</em> quelqu&rsquo;un en mentant, en bluffant, en volant ou en trichant, ajoutez +1.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous <em>R&eacute;coltez des Informations</em> en enqu&ecirc;tant sur une intrigue machiav&eacute;lique, vous pouvez ((rollplus shadow)) (au lieu de ((rollplus wits))). Si vous le faites, vous gagnez +2 &eacute;lan sur un succ&egrave;s.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous <em>Forgez un Lien</em> en rapport &agrave; une relation bas&eacute;e sur un mensonge, retenez l&rsquo;une de ces options :</p> <ul> <li>Garder le secret : ((rollplus shadow)) (au lieu de ((rollplus heart)))</li> <li>R&eacute;v&eacute;ler la v&eacute;rit&eacute; : ((rollplus heart)). Sur un coup fort, notez deux coches sur votre jauges de Liens et gagnez 1 exp&eacute;rience. Un coup faible est consid&eacute;r&eacute; comme un &eacute;chec.</li> </ul>"
+				}
+			]
+		},
+		"Path / Veteran": {
+			"frName": "Voie / Vétéran",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous br&ucirc;lez de l&rsquo;&eacute;lan pour am&eacute;liorer votre r&eacute;sultat au combat, visualisez comment votre exp&eacute;rience de combattant durement gagn&eacute;e vous donne l&rsquo;avantage. Puis, gagnez +1 &eacute;lan apr&egrave;s votre r&eacute;initialisation, et ajoutez +1 &agrave; votre prochaine action. Une fois par combat, vous pouvez &eacute;galement gagner l&rsquo;initiative lorsque vous br&ucirc;lez de l&rsquo;&eacute;lan afin de transformer un &eacute;chec en coup faible.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous<em> Jurez un Voeu de Fer</em> envers quelqu&rsquo;un qui a combattu &agrave; vos c&ocirc;t&eacute;s ou que vous<em> Forgez un Lien</em> avec celui-ci, ajoutez +2 et gagnez +2 &eacute;lan sur un succ&egrave;s.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous vous <em>Ravitaillez</em> en d&eacute;troussant les morts sur un champ de bataille, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				}
+			]
+		},
+		"Path / Waterborn": {
+			"frName": "Voie / Marin",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous <em>Faites Face au Danger</em>, que vous <em>R&eacute;coltez des Informations</em> ou que vous vous <em>Emparez d&rsquo;un Avantage</em> en rapport avec vos connaissances des embarcations, de la navigation ou des environnements et cr&eacute;atures aquatiques, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous <em>Entreprenez un Voyage</em> en barque ou en bateau, ajoutez +1. Sur un coup fort, retenez aussi l&rsquo;une des options suivantes :</p> <ul> <li>Vous avez le vent dans le dos : Notez le double de votre progression.</li> <li>Vous trouvez un mouillage s&ucirc;r : <em>Montez un Camp</em> maintenant et relancez n&rsquo;importe quel d&eacute;.</li> <li>&Agrave; vous le magot : <em>Ravitaillez</em>-vous maintenant et relancez n&rsquo;importe quel d&eacute;.</li> </ul> "
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous <em>Plongez dans la M&ecirc;l&eacute;e</em> &agrave; bord d&rsquo;une barque ou d&rsquo;un bateau, relancez n&rsquo;importe quel d&eacute;.</p>"
+				}
+			]
+		},
+		"Path / Wayfinder": {
+			"frName": "Voie / Éclaireur",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous <em>Entreprenez un Voyage</em>, gagnez +1 &eacute;lan sur un coup fort. Si vous br&ucirc;lez de l&rsquo;&eacute;lan pour am&eacute;liorer votre r&eacute;sultat, gagnez &eacute;galement +1 &eacute;lan apr&egrave;s votre r&eacute;initialisation.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous vous <em>Emparez d&rsquo;un Avantage</em> ou que vous <em>R&eacute;coltez des Informations</em> en &eacute;tudiant attentivement le paysage ou en partant en &eacute;claireur, ajoutez +1et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous <em>Jurez le Voeu de Fer</em> de guider en toute s&eacute;curit&eacute; une personne tout au long d&rsquo;un voyage p&eacute;rilleux, vous pouvez relancer n&rsquo;importe quel d&eacute;. Lorsque vous <em>R&eacute;alisez votre Voeu</em> et notez votre exp&eacute;rience, vous gagnez +1 exp&eacute;rience.</p>"
 				}
 			]
 		},
@@ -618,6 +1068,132 @@
 				}
 			]
 		},
+		"Path / Wildblood": {
+			"frName": "Voie / Sang Sauvage",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous <em>Faites Face au Danger</em>, que vous vous <em>Emparez d&rsquo;un Avantage</em> ou que vous <em>R&eacute;coltez des Informations</em> en utilisant votre science du pistage, de l&rsquo;artisanat du bois ou des cr&eacute;atures de la for&ecirc;t, ajoutez +1.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous <em>Faites Face au Danger</em> ou que vous vous <em>Emparez d&rsquo;un Avantage</em> en vous cachant ou en r&ocirc;dant dans les bois, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous <em>Montez un Camp</em> dans les bois, vous pouvez ((rollplus wits)) (au lieu de ((rollplus supply))). Si vous le faites, vos alli&eacute;s et vous pourrez chacun choisir 1 option suppl&eacute;mentaire sur un succ&egrave;s.</p>"
+				}
+			]
+		},
+		"Path / Wright": {
+			"frName": "Voie / Artisan",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous vous <em>Emparez d&rsquo;un Avantage</em> en fabriquant un objet utile en utilisant votre sp&eacute;cialit&eacute; ou que vous <em>Faites Face au Danger</em> pour cr&eacute;er ou r&eacute;parer un objet dans une situation p&eacute;rilleuse, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Comme pr&eacute;c&eacute;demment, mais vous pouvez subir une p&eacute;nalit&eacute; de -1 provisions (apr&egrave;s votre jet) pour ajouter un +1 suppl&eacute;mentaire.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous donnez un objet que vous avez cr&eacute;&eacute; en cadeau pour comm&eacute;morer un &eacute;v&eacute;nement ou une relation importante, vous pouvez (une seule fois) relancer n&rsquo;importe quel d&eacute; lorsque vous d&eacute;clenchez <em>Contraindre</em>, <em>Forger un Lien</em> ou <em>Tester un Lien</em>.</p>"
+				}
+			]
+		},
+		"Ritual / Augur": {
+			"frName": "Rituel / Augure",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous invoquez un vol de corbeaux et posez une unique question, ((rollplus wits)). Sur un coup fort, vous interpr&eacute;tez leurs croassements comme &eacute;tant un pr&eacute;sage utile. Visualisez en quoi consiste leur r&eacute;ponse (<em>Consultez l&rsquo;Oracle</em> en cas de doute) et gagnez +2 &eacute;lan. Sur un coup faible, les corbeaux ignorent votre question et vous offrent un indice li&eacute; &agrave; un probl&egrave;me ou une opportunit&eacute; en rapport avec la zone alentours. Visualisez ce que vous apprenez (<em>Consultez l&rsquo;Oracle</em> en cas de doute) et gagnez +1 &eacute;lan.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Comme pr&eacute;c&eacute;demment, mais les corbeaux vous guideront &eacute;galement sur le bon chemin. Sur un succ&egrave;s, ajoutez +1 lors de la prochaine &eacute;tape quand vous <em>Entreprenez un Voyage</em>.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous effectuez ce rituel, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				}
+			]
+		},
+		"Ritual / Awakening": {
+			"frName": "Voie / Éveil",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous cr&eacute;ez un simulacre, ((rollplus heart)). Sur un coup fort, votre cr&eacute;ation s&rsquo;anime d&rsquo;une vie surnaturelle. Si vous d&eacute;clenchez une action en utilisant votre simulacre pour attaquer ou surmonter un obstacle par la force, ajoutez +2. Votre simulacre poss&egrave;de 3 points de sant&eacute; et subit des d&eacute;g&acirc;ts normalement, mais ce n&rsquo;est pas un compagnon et il ne peut &ecirc;tre soign&eacute;. Une fois tomb&eacute; &agrave; 0 sant&eacute;, il meurt. Sur un coup faible, comme pr&eacute;c&eacute;demment, mais si vous obtenez un r&eacute;sultat de 1 sur votre d&eacute; d&rsquo;action en &eacute;tant aid&eacute; par votre simulacre, vous devez <em>Faire Face au Danger</em> ((rollplus heart)) pour l&rsquo;emp&ecirc;cher de se retourner contre vous (consid&eacute;rez-le comme un ennemi de rang redoutable).</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Votre simulacre poss&egrave;de 6 points de sant&eacute;.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous accomplissez ce rituel, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				}
+			]
+		},
+		"Ritual / Bind": {
+			"frName": "Rituel / Pacte",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous dansez au clair de lune en portant la fourrure d&rsquo;un animal, ((rollplus wits)). Sur un coup fort, vous ou l&rsquo;un de vos alli&eacute;s peut porter cette fourrure et ajouter +1 lorsqu&rsquo;il d&eacute;clenche une action bas&eacute;e sur la caract&eacute;ristique associ&eacute;e (loup-vivacit&eacute; ; ours-fer ; cerfcoeur ; renard-ombre ; sanglier-astuce). Si le porteur obtient un r&eacute;sultat de 1 sur son jet d&rsquo;action lorsqu&rsquo;il d&eacute;clenche une action utilisant la peau de l&rsquo;animal, alors la magie est &eacute;puis&eacute;e. Sur un coup faible, comme pr&eacute;c&eacute;demment, mais vous ressentez l&rsquo;appel de la nature durant votre danse ; vous <em>Subissez un Stress</em> (2 stress).</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Comme pr&eacute;c&eacute;demment, mais vous pouvez opter pour effectuer ce rituel en utilisant la peau d&rsquo;une b&ecirc;te. Si vous le faites, choisissez la caract&eacute;ristique associ&eacute;e et ajoutez +2 au lieu de +1.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous effectuez ce rituel, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				}
+			]
+		},
+		"Ritual / Communion": {
+			"frName": "Rituel / Communion",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous placez des bougies allum&eacute;es autour du corps d&rsquo;une cr&eacute;ature intelligente r&eacute;cemment d&eacute;c&eacute;d&eacute;e, vous pouvez invoquer son esprit en faisant * ((rollplus heart)). Ajoutez +1 si vous partagiez un lien. Sur un coup fort, son esprit vous appara&icirc;t et vous pouvez converser pendant quelques minutes. D&eacute;clenchez les actions appropri&eacute;es (ajoutez +1). Sur un coup faible, comme pr&eacute;c&eacute;demment, mais l&rsquo;esprit vous r&eacute;v&egrave;le une nouvelle troublante, sans lien avec votre intention. Visualisez ce qu&rsquo;il vous r&eacute;v&egrave;le (<em>Consultez l&rsquo;Oracle</em> en cas de doute) et <em>Subissez un Stress</em> (1 stress).</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Comme pr&eacute;c&eacute;demment, mais vous pouvez &eacute;galement communiquer avec les personnes disparues depuis longtemps.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous effectuez ce rituel, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				}
+			]
+		},
+		"Ritual / Divination": {
+			"frName": "Rituel / Divination",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous pr&eacute;levez une goutte de sang sur un sujet consentant (vous exclu) puis que vous lancez vos pierres de divination runiques, ((rollplus heart)). Sur un coup fort, vous pouvez lire les runes afin d&rsquo;en apprendre plus sur cette personne et ceux qui lui sont proches (y compris sur des d&eacute;tails dont ni vous, ni votre sujet, n&rsquo;ont connaissance). Si vous lisez les runes afin<em> R&eacute;colter des Informations</em>, de <em>Contraindre</em> ou de <em>Forger un Lien</em>, ajoutez +1. Sur un coup faible, comme pr&eacute;c&eacute;demment, mais la divination vous demandera plus de temps et de concentration ; vous subissez une p&eacute;nalit&eacute; de -2 &eacute;lan.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Comme pr&eacute;c&eacute;demment, mais votre divination peut &eacute;galement r&eacute;v&eacute;ler des informations sur l&rsquo;avenir de cette personne.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous effectuez ce rituel, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				}
+			]
+		},
 		"Ritual / Invoke": {
 			"frName": "Rituel / Invocation",
 			"frDescription": null,
@@ -633,6 +1209,204 @@
 				{
 					"enabled": "False",
 					"description": "Lorsque vous effectuez ce rituel, ajoutez +1 et gagnez +1 essence sur un succès."
+				}
+			]
+		},
+		"Ritual / Keen": {
+			"frName": "Rituel / Lamentation",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous brandissez une arme en chantant une lamentation adress&eacute;e &agrave; tous ceux qu&rsquo;elle a tu&eacute;, ((rollplus heart)). Sur un coup fort son porteur inflige +1 d&eacute;g&acirc;t lorsqu&rsquo;il <em>Frappe</em> ou <em>Riposte</em> &agrave; l&rsquo;aide de celle-ci. Si le porteur obtient un r&eacute;sultat de 1 sur son jet d&rsquo;action lorsqu&rsquo;il d&eacute;clenche une action pour infliger des d&eacute;g&acirc;ts, alors la magie est &eacute;puis&eacute;e. Sur un coup faible, comme pr&eacute;c&eacute;demment, mais les voix des d&eacute;funts se joignent &agrave; votre chant ; vous <em>Subissez un Stress</em> (2 stress).</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Comme pr&eacute;c&eacute;demment, mais le porteur de cette arme peut &eacute;galement (une fois seulement) ajouter +1 et gagner +2 &eacute;lan sur un succ&egrave;s lorsqu&rsquo;il <em>Trace le Cercle</em>, <em>Plonge</em> dans la <em>M&ecirc;l&eacute;e ou Bataille</em>.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous effectuez ce rituel, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				}
+			]
+		},
+		"Ritual / Leech": {
+			"frName": "Rituel / Sangsue",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous marquez vos mains ou une arme d&rsquo;une rune de sang complexe, ((rollplus iron)). Sur un coup fort, la rune a soif de sang frais. Une fois seulement, lorsque vous d&eacute;clenchez une action pour infliger des d&eacute;g&acirc;ts, relancez n&rsquo;importe quel d&eacute; et infligez +2 d&eacute;g&acirc;ts sur un succ&egrave;s. Puis, pour chaque d&eacute;g&acirc;t inflig&eacute;, vous gagnez +1 sant&eacute; ou +1 &eacute;lan. Sur un coup faible, comme pr&eacute;c&eacute;demment, mais cet atout compte comme un handicap jusqu&rsquo;&agrave; ce que la soif de la rune soit &eacute;tanch&eacute;e.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Comme pr&eacute;c&eacute;demment, et vous pouvez &eacute;galement toucher un alli&eacute; ou un compagnon afin de lui transf&eacute;rer tout ou partie des b&eacute;n&eacute;fices re&ccedil;us en gain de +sant&eacute; ou +&eacute;lan.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous effectuez ce rituel, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				}
+			]
+		},
+		"Ritual / Lightbearer": {
+			"frName": "Rituel / Porteur de Lumière",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous vous concentrez sur une source de lumi&egrave;re et absorbez son essence, ((rollplus wits)). Sur un coup fort, mettez votre jauge de lumi&egrave;re &agrave; +6. Sur un coup faible, mettez-la &agrave; +3. Puis, lorsque vous d&eacute;clenchez une action visant &agrave; surmonter l&rsquo;obscurit&eacute; ou &agrave; vous orienter dans l&rsquo;obscurit&eacute;, vous pouvez ajouter +2 et subir une p&eacute;nalit&eacute; de -1 lumi&egrave;re.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Vous pouvez utiliser votre lumi&egrave;re pour <em>Frapper</em> ou <em>Riposter</em> contre un adversaire vivant dans l&rsquo;obscurit&eacute;. Choisissez la quantit&eacute; de lumi&egrave;re que vous souhaitez lib&eacute;rer, et faites un jet avec +lumi&egrave;re (au lieu de ((rollplus iron)) ou ((rollplus edge))), puis subissez une p&eacute;nalit&eacute; de -lumi&egrave;re &eacute;quivalente &agrave; la quantit&eacute; lib&eacute;r&eacute;e. Sur un succ&egrave;s, votre niveau de d&eacute;g&acirc;ts par d&eacute;faut est de 1+la quantit&eacute; de lumi&egrave;re lib&eacute;r&eacute;e.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous effectuez ce rituel, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				}
+			]
+		},
+		"Ritual / Scry": {
+			"frName": "Rituel / Pyromancie",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous plongez votre regard dansles flammes pour &eacute;tudier un lieu ou une personne &agrave; distance, ((rollplus shadow)). Vous ou quelqu&rsquo;un en votre pr&eacute;sence doit obligatoirement connaitre votre cible. Sur un coup fort, vous pouvez <em>R&eacute;colter des Informations</em> par le biais de l&rsquo;observation, en utilisant ((rollplus shadow)) ou ((rollplus wits)). Sur un coup faible, comme pr&eacute;c&eacute;demment, mais les flammes sont voraces ; sacrifiez l&rsquo;un des &eacute;l&eacute;ments suivants :</p> <ul> <li>Votre sang : <em>Subissez des D&eacute;g&acirc;ts</em> (2 d&eacute;g&acirc;ts).</li> <li>Un objet pr&eacute;cieux : <em>Subissez un Stress</em> (2 stress).</li> <li>Des provisions : Vous subissez -2 provisions.</li> </ul>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Comme pr&eacute;c&eacute;demment, mais vous pouvez plut&ocirc;t &eacute;tudier un &eacute;v&eacute;nement pass&eacute;.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous effectuez ce rituel, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				}
+			]
+		},
+		"Ritual / Shadow-Walk": {
+			"frName": "Rituel / Traversée des Ombres",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous vous dissimulez dans le voile t&eacute;nu du royaume des ombres, ((rollplus shadow)). Sur un coup fort, vous gagnez +1 &eacute;lan. Puis, relancez n&rsquo;importe quel d&eacute; (une seule fois) quand vous d&eacute;clenchez une action en tendant une embuscade, en vous cachant ou en &eacute;tant discret. Sur un coup faible, comme pr&eacute;c&eacute;demment, mais les ombres tentent de vous &eacute;garer. Vous devez d&rsquo;abord <em>Faire Face au Danger</em> pour trouver votre chemin.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Comme pr&eacute;c&eacute;demment, mais vous pouvez &eacute;galement voyager le long des sentiers secrets du royaume des ombres, ce qui vous permet d&rsquo;<em>Entreprendre un Voyage</em> avec&nbsp;((rollplus shadow)) (au lieu de ((rollplus wits))). Si vous le faites, vous <em>Subissez un Stress</em> (1 stress) et notez le double de votre progression sur un coup fort.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous effectuez ce rituel, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				}
+			]
+		},
+		"Ritual / Sway": {
+			"frName": "Rituel / Emprise",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous dites aux vents le nom d&rsquo;une personne &agrave; trois reprises, ((rollplus wits)). Sur un coup fort, les vents vous murmurent ce dont cette personne a besoin. Visualisez ce que vous apprenez (<em>Consultez l&rsquo;Oracle</em> en cas de doute). Si vous utilisez cette information ou r&eacute;pondez &agrave; ce besoin lorsque vous tentez de la <em>Contraindre</em>, alors vous pouvez relancer n&rsquo;importe quel d&eacute; (une seule fois). Sur un coup faible, comme pr&eacute;c&eacute;demment, mais le besoin de cette personne cr&eacute;e un dilemme troublant ou une complication ; vous <em>Subissez un Stress</em> (1 stress).</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Comme pr&eacute;c&eacute;demment, mais sur un coup fort de l&rsquo;action <em>Contraindre</em>, vous pouvez &eacute;galement relancer n&rsquo;importe quel d&eacute; (une seule fois) lorsque vous <em>R&eacute;coltez des Informations</em> de cette personne.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous effectuez ce rituel, ajoutez&nbsp;+1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				}
+			]
+		},
+		"Ritual / Talisman": {
+			"frName": "Rituel / Talisman",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous fabriquez un talisman, visualisez celui-ci et d&eacute;signez la personne ou la cr&eacute;ature sp&eacute;cifique contre laquelle il conf&egrave;re une protection. Puis, ((rollplus wits)). Sur un coup fort, lorsque le porteur s&rsquo;oppose &agrave; la cible par le biais d&rsquo;une action, ajoutez +2. Si un r&eacute;sultat de 1 est obtenu sur le d&eacute; d&rsquo;action en utilisant ce talisman, la magie est &eacute;puis&eacute;e. Sur un coup faible, comme pr&eacute;c&eacute;demment, mais le porteur ajoute +1 (au lieu de +2).</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Comme pr&eacute;c&eacute;demment, mais vous pouvez &eacute;galement fabriquer un talisman qui aide son porteur &agrave; lutter contre toutes les menaces surnaturelles, telles que les rituels mystiques ou les horreurs.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous effectuez ce rituel, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				}
+			]
+		},
+		"Ritual / Tether": {
+			"frName": "Rituel / Attache",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous communiez avec les esprits d&rsquo;un endroit,((rollplus heart)). Si vous partagez un lien avec une personne de cet endroit, ajoutez +1. Sur un coup fort, vous &ecirc;tes attach&eacute; &agrave; ce lieu. Lorsque vous <em>Entreprenez un Voyage</em> pour y retourner, vous pouvez&nbsp;((rollplus spirit)) ou&nbsp;((rollplus heart)) (au lieu de ((rollplus wits))), et gagner +1 &eacute;lan sur un succ&egrave;s. Lorsque vous <em>Atteignez votre Destination</em>, vous gagnez +2 &eacute;lan sur un coup fort. L&rsquo;attache est perdue si vous effectuez ce rituel ailleurs, or si vous <em>Faites Face &agrave; la D&eacute;solation</em>. Sur un coup faible, comme pr&eacute;c&eacute;demment, mais les esprits vous r&eacute;v&egrave;lent un aspect inqui&eacute;tant de cet endroit : vous <em>Subissez un Stress</em> (2 stress).</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Comme pr&eacute;c&eacute;demment, et vous pouvez &eacute;galement relancer n&rsquo;importe quel d&eacute; lorsque vous <em>S&eacute;journez</em> dans l&rsquo;endroit o&ugrave; vous avez votre attache.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous effectuez ce rituel, ajoutez d+1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				}
+			]
+		},
+		"Ritual / Totem": {
+			"frName": "Rituel / Totem",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous tenez le totem de votre compagnon (animal ou b&ecirc;te) en vous concentrant sur celui-ci, ((rollplus heart)). Sur un coup fort, vous &ecirc;tes connect&eacute;s. Ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s lorsque vous utilisez une capacit&eacute; de compagnon. Si vous obtenez un r&eacute;sultat de 1 sur votre d&eacute; d&rsquo;action lorsque vous utilisez une capacit&eacute; de compagnon, la magie est &eacute;puis&eacute;e. Sur un coup faible, comme pr&eacute;c&eacute;demment, mais cette connexion est perturbante ; vous <em>Subissez un Stress</em> (1 stress).</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Comme pr&eacute;c&eacute;demment, mais vous pouvez aussi percevoir le monde par le biais des sens de votre compagnon lorsque vous d&eacute;clenchez des actions en &eacute;tant aid&eacute; de celui-ci (y compris lorsque vous &ecirc;tes s&eacute;par&eacute;s).</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous effectuez ce rituel, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				}
+			]
+		},
+		"Ritual / Visage": {
+			"frName": "Rituel / Grimace",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous appliquez un m&eacute;lange de sang et de cendres sur votre visage, ((rollplus wits)). Sur un coup fort, vous pouvez ajouter +2 et gagner +1 &eacute;lan sur un succ&egrave;s lorsque vous vous <em>Emparez d&rsquo;un Avantage</em> ou que vous <em>Contraignez</em> en usant de la peur ou de l&rsquo;intimidation. Si vous obtenez un r&eacute;sultat de 1 sur votre d&eacute; d&rsquo;action lorsque vous d&eacute;clenchez une action aid&eacute;e par votre grimage, la magie est &eacute;puis&eacute;e. Sur un coup faible, comme pr&eacute;c&eacute;demment, mais le sang doit &ecirc;tre le v&ocirc;tre ; vous <em>Subissez des D&eacute;g&acirc;ts</em> (2 d&eacute;g&acirc;ts).</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Comme pr&eacute;c&eacute;demment, mais vous pouvez aussi ajouter +1 lorsque vous <em>Frappez</em>, <em>Ripostez</em> ou <em>Bataillez</em>.</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous effectuez ce rituel, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
+				}
+			]
+		},
+		"Ritual / Ward": {
+			"frName": "Rituel / Conjuration",
+			"frDescription": null,
+			"frAbilities": [
+				{
+					"enabled": "True",
+					"description": "<p>Lorsque vous tracez un large cercle en r&eacute;pandant du sel sur le sol, faites un jet +astuce. Sur un coup fort, retenez deux options. Sur un coup faible retenez-en une seule.</p> <ul> <li>La premi&egrave;re fois qu&rsquo;un ennemi entre dans le cercle, vous gagnez +1 &eacute;lan.</li> <li>La premi&egrave;re fois que vous infligez des d&eacute;g&acirc;ts &agrave; un ennemi se trouvant dans le cercle, infligez +1 d&eacute;g&acirc;t</li> <li>Il est &laquo; probable &raquo; (<em>Consultez l&rsquo;Oracle</em>) que votre cercle de conjuration parvienne &agrave; pi&eacute;ger un ennemi dans sa circonf&eacute;rence.</li> </ul>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Comme pr&eacute;c&eacute;demment, mais vous am&eacute;liorez l&rsquo;effet de votre cercle de conjuration (+2 &eacute;lan, 2 d&eacute;g&acirc;ts ou &laquo; presque certain &raquo;).</p>"
+				},
+				{
+					"enabled": "False",
+					"description": "<p>Lorsque vous effectuez ce rituel, ajoutez +1 et gagnez +1 &eacute;lan sur un succ&egrave;s.</p>"
 				}
 			]
 		}
