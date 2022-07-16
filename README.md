@@ -7,7 +7,6 @@ C'est grâce au travail de [500 Nuances de Geeks](https://www.500nuancesdegeek.f
 
 <p align="center">
 <a href='https://foundryvtt.com'><img src="https://foundryvtt.wiki/fvtt-solid-512.png" width='128' height='128' border='none'></a></td>
-    
 <a href='https://www.500nuancesdegeek.fr/'><img src="https://www.500nuancesdegeek.fr/wp-content/uploads/2020/01/bandeau5.jpg" width='192' height='128' border='none'></a>
 </p>
 
